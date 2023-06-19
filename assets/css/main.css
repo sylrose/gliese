@@ -1,7 +1,8 @@
+
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
-/*
-	Editorial by HTML5 UP
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
+
+Editorial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -92,7 +93,7 @@ body {
 /* Type */
 body, input, select, textarea {
   color: #000000;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Martian Mono", sans-serif;
   font-size: 13pt;
   font-weight: 400;
   line-height: 1.65; }
@@ -132,7 +133,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
-  font-family: "Roboto Slab", serif;
+  font-family: "Inconsolata", serif;
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 1em 0; }
@@ -196,14 +197,14 @@ code {
   background: rgba(230, 235, 237, 0.25);
   border-radius: 0.375em;
   border: solid 1px #edb56b;
-  font-family: "Courier New", monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 0.9em;
   margin: 0 0.25em;
   padding: 0.25em 0.65em; }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Courier New", monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 0.9em;
   margin: 0 0 2em 0; }
   pre code {
@@ -990,7 +991,7 @@ section.special, article.special {
   text-align: center; }
 
 header p {
-  font-family: "Roboto Slab", serif;
+  font-family: "Inconsolata", serif;
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -1120,7 +1121,7 @@ input[type="radio"] {
       text-rendering: auto;
       line-height: 1;
       text-transform: none !important;
-      font-family: 'Font Awesome 5 Free';
+      font-family: 'Inconsolata';
       font-weight: 900; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
@@ -1208,7 +1209,7 @@ input[type="radio"] + label:before {
   .icon.solid:before {
     font-weight: 900; }
   .icon.brands:before {
-    font-family: 'Font Awesome 5 Brands'; }
+    font-family: 'Font Awesome 5 Free'; }
 
 /* Image */
 .image {
@@ -1373,7 +1374,7 @@ ul.contact {
       text-rendering: auto;
       line-height: 1;
       text-transform: none !important;
-      font-family: 'Font Awesome 5 Free';
+      font-family: 'Inconsolata';
       font-weight: 400; }
     ul.contact li:before {
       color: #373b52;
@@ -1892,7 +1893,7 @@ button,
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Inconsolata';
     font-weight: 900; }
   #search form:before {
     -moz-transform: scaleX(-1);
@@ -1984,7 +1985,7 @@ button,
       text-rendering: auto;
       line-height: 1;
       text-transform: none !important;
-      font-family: 'Font Awesome 5 Free';
+      font-family: 'Inconsolata';
       font-weight: 900; }
     #sidebar .toggle:before {
       content: '\f0c9';
@@ -2232,7 +2233,7 @@ button,
         text-rendering: auto;
         line-height: 1;
         text-transform: none !important;
-        font-family: 'Font Awesome 5 Free';
+        font-family: 'Inconsolata';
         font-weight: 900; }
       #menu ul a.opener:before, #menu ul span.opener:before {
         -moz-transition: color 0.2s ease-in-out, -moz-transform 0.2s ease-in-out;
@@ -2271,3 +2272,7 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+    body {
+      font-family: 'Inconsolata';
+    }
