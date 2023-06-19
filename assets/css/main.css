@@ -2,21 +2,16 @@
 @import url(fontawesome-all.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
 
-Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+footer, header, hgroup, menu, nav, output, ruby,section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -112,7 +107,6 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
   color: #373b52;
   text-decoration: none; }
   a:hover {
@@ -1347,7 +1341,7 @@ ul.icons {
   padding-left: 0; }
   ul.icons li {
     display: inline-block;
-    padding: 0 1em 0 0; }
+    padding: 0 0.1em 0 0; }
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon {
@@ -1485,6 +1479,7 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
+  font-family: 'Inconsolata';
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -1749,7 +1744,7 @@ button,
     position: relative;
     width: calc(33.33333% - 6em); }
     .posts article:before {
-      background: rgba(210, 215, 217, 0.75);
+      background: #000000;
       content: '';
       display: block;
       height: calc(100% + 6em);
@@ -2102,7 +2097,7 @@ button,
         font-size: 1.25em;
         margin: 0; }
       #header .icons {
-        height: 5em;
+        height: em;
         line-height: 5em;
         position: absolute;
         right: -0.5em;
@@ -2276,3 +2271,106 @@ button,
     body {
       font-family: 'Inconsolata';
     }
+
+    
+    
+    .footer-distributed {
+      background-color: #292c2f;
+      font-family: 'Inconsolata';
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      font: normal 16px;
+      padding: 45px 50px;
+    }
+    
+    .footer-distributed .footer-left p {
+      color: #8f9296;
+      font-size: 14px;
+      margin: 0;
+      font-family: 'Inconsolata';
+
+    }
+    /* Footer links */
+    
+    .footer-distributed p.footer-links {
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      margin: 0 0 10px;
+      padding: 0;
+      transition: ease .25s;
+      font-family: 'Inconsolata';
+
+    }
+    
+    .footer-distributed p.footer-links a {
+      display: inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      color: inherit;
+      transition: ease .25s;
+      font-family: 'Inconsolata';
+
+    }
+    
+    .footer-distributed .footer-links a:before {
+      content: "·";
+      font-size: 20px;
+      left: 0;
+      color: #fff;
+      display: inline-block;
+      padding-right: 5px;
+      font-family: 'Inconsolata';
+
+    }
+    
+    .footer-distributed .footer-links .link-1:before {
+      content: none;
+    }
+    
+    .footer-distributed .footer-right {
+      float: right;
+      margin-top: 6px;
+      max-width: 180px;
+    }
+    
+    .footer-distributed .footer-right a {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background-color: #33383b;
+      border-radius: 2px;
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+      margin-left: 3px;
+      transition:all .25s;
+      font-family: 'Inconsolata';
+
+    }
+    
+    .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+    
+    .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+    
+    /* Media Queries */
+    
+    @media (max-width: 600px) {
+      .footer-distributed .footer-left, .footer-distributed .footer-right {
+        text-align: center;
+      }
+      .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 20px;
+      }
+      .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+      }
+    }
+
+.button {
+  font-family: 'Inconsolata';
+}
