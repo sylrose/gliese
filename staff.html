@@ -5,6 +5,77 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+            /* Three columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-left:40px;
+    margin-right:40px;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:rgb(242, 233, 218)
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  background-color: #edb56b;
+  text-align: center;
+  padding:0px;
+  text-decoration-color: white;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+
+}
+
+.button:hover {
+  background-color: #8f94b3;
+}
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+padding:4px;
+}
+
+        </style>
 	</head>
 	<body class="is-preload">
 
@@ -27,32 +98,64 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Generic</h1>
+										<h1>Staff</h1>
 									</header>
-
-									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-
-									<hr class="major" />
-
-									<h2>Interdum sed dapibus</h2>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-
-									<hr class="major" />
-
-									<h2>Magna etiam veroeros</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-
-									<hr class="major" />
-
-									<h2>Lorem aliquam bibendum</h2>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+                                    <div class="row">
+                                        <div class="column">
+                                          <div class="card">
+                                            <br>
+    <img src="https://media.discordapp.net/attachments/833866530483339306/1125237894500589710/IMG_9276.jpg" class="rounded" style="border:5px solid #edb56b; margin-bottom:20px;">
+                                                      <div class="container">
+                                              <h2>michaela ye-hyang frey</h2>
+                                              <p class="title">founder + web developer + video prod</p>
+                                              <p>hi! i'm a sophomore at langley high school. i draw, code, write, and play violin. i really like the solarpunk genre and am currently reading <a href="https://www.goodreads.com/book/show/60647407-postcolonial-configurations?ac=1&from_search=true&qid=0SMZZGQlOB&rank=1"><em>postcolonial configurations</em> by josen masangkay diaz.</a> </p>
+                                              <p>contact me @ <a href="mailto:michaelafrey02@gmail.com">michaelafrey02@gmail.com!</a></p>
+                                              <p><button class="button"><a href="https://miye.arceus.day">website</a></button></p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <div class="column">
+                                          <div class="card">
+                                            <br>
+                                            <img src="https://media.discordapp.net/attachments/833866530483339306/1125242453033746474/image.png?width=962&height=958" class="rounded" style="border:5px solid #edb56b; margin-bottom:20px;">
+                                            <div class="container">
+                                              <h2>mo gruber</h2>
+                                              <p class="title">communications</p>
+                                              <p>bio work in progress!</p>
+                                              <p><a href="mogruberw@gmail.com">mogruberw@gmail.com</a></p>
+                                              <p><button class="button">website</button></p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <div class="column">
+                                          <div class="card">
+                                            <br>
+                                            <img src="                                                https://media.discordapp.net/attachments/833866530483339306/1125246372724093008/image.png?width=896&height=880
+                                            " class="rounded" style="border:5px solid #edb56b; margin-bottom:20px;">
+                                            <div class="container">
+                                              <h2>annika singh</h2>
+                                              <p class="title">media manager</p>
+                                              <p>Annika is a high school  sophomore in the DMV. She is incredibly passionate about art and graphic design! Some fun facts about Annika are: she can recite the alphabet backwards, she plays piano, and she is allergic to eggs! No cake for Annika :( Her very best friend is her dog named Waffles. Annika is so grateful to be a member of the Gliese Art Collective!</p>
+                                              <p><a href="mailto:annikarsingh@gmail.com">annikarsingh@gmail.com</a></p>
+                                              <p><button class="button">Contact</button></p>
+                                            </div>
+                                          </div>
+                                          </div>
+                                          <div class="column">
+                                            <div class="card">
+                                              <img src="img3.jpg" alt="John" style="width:100%">
+                                              <div class="container">
+                                                <h2>yaya lan</h2>
+                                                <p class="title">organizer</p>
+                                                <p>bio work in progress!</p>
+                                                <p><a href="mailto:yayalan163@gmail.com">yayalan163@gmail.com</a></p>
+                                                <p><button class="button">Contact</button></p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>                                      
 
 								</section>
 
