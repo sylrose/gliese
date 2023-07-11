@@ -1,6 +1,6 @@
 
 @import url(fontawesome-all.min.css);
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap");
 
 
 html, body, div, span, applet, object,
@@ -1115,7 +1115,7 @@ input[type="radio"] {
       text-rendering: auto;
       line-height: 1;
       text-transform: none !important;
-      font-family: 'Inconsolata';
+      font-family: 'Font Awesome 5 Free';
       font-weight: 900; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
@@ -1203,7 +1203,7 @@ input[type="radio"] + label:before {
   .icon.solid:before {
     font-weight: 900; }
   .icon.brands:before {
-    font-family: 'Font Awesome 5 Free'; }
+    font-family: 'Font Awesome 5 Free Brands'; }
 
 /* Image */
 .image {
@@ -1368,7 +1368,7 @@ ul.contact {
       text-rendering: auto;
       line-height: 1;
       text-transform: none !important;
-      font-family: 'Inconsolata';
+      font-family: 'Font Awesome 5 Free';
       font-weight: 400; }
     ul.contact li:before {
       color: #373b52;
@@ -1888,7 +1888,7 @@ button,
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Inconsolata';
+    font-family: 'Font Awesome 5 Free';
     font-weight: 900; }
   #search form:before {
     -moz-transform: scaleX(-1);
@@ -1980,7 +1980,7 @@ button,
       text-rendering: auto;
       line-height: 1;
       text-transform: none !important;
-      font-family: 'Inconsolata';
+      font-family: 'Font Awesome 5 Free';
       font-weight: 900; }
     #sidebar .toggle::before {
       content: '\f0c9';
@@ -2228,7 +2228,7 @@ button,
         text-rendering: auto;
         line-height: 1;
         text-transform: none !important;
-        font-family: 'Inconsolata';
+        font-family: 'Font Awesome 5 Free';
         font-weight: 900; }
       #menu ul a.opener:before, #menu ul span.opener:before {
         -moz-transition: color 0.2s ease-in-out, -moz-transform 0.2s ease-in-out;
