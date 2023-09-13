@@ -19,6 +19,10 @@ footer, header, hgroup, menu, nav, output, ruby,section, summary, time, mark, au
   font: inherit;
   vertical-align: baseline; }
 
+p {
+  font-size: 150%;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
