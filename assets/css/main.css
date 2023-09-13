@@ -19,7 +19,7 @@ footer, header, hgroup, menu, nav, output, ruby,section, summary, time, mark, au
   font: inherit;
   vertical-align: baseline; }
 
-p {
+p, li {
   font-size: 1.3rem;
 }
 
