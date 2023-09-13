@@ -2261,6 +2261,13 @@ button,
     color: #4e5052;
     display: none;
     margin: 0.5em 0 1.5em 0;
+  }
+  #menu > ul > li > ul:hover {
+    color: #b9bec3;
+    text-transform: lowercase;
+    text-shadow: 0 0 5px #6e6a75;
+    
+  }
     padding-left: 1em; }
     #menu > ul > li > ul a, #menu > ul > li > ul span {
       font-size: 0.8em; }
