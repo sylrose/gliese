@@ -39,11 +39,35 @@
 
 									<p>Welcome to the Gliese Library! This agora of knowledge functions as a <a href="https://jzhao.xyz/posts/networked-thought/">digital garden</a>, and will be continually updated. </p>
 									<script>
-  function resizeIframe(obj) {
-    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-  }
-</script>
-									<iframe frameborder="0" scrolling="no" onload="resizeIframe(this)" src="https://docs.google.com/document/d/e/2PACX-1vTMAaMJF-ZyTKLXkGY-Drj4dHPtlpsEQr1HZWtoEg9ew0TuGaDJPudGkZq-OSqGGc7rPdQRuExPJt7F/pub?embedded=true"></iframe>
+function fit() {
+    var iframes = document.querySelectorAll("iframe.gh-fit")
+
+    for(var id = 0; id < iframes.length; id++) {
+        var win = iframes[id].contentWindow
+        var doc = win.document
+        var html = doc.documentElement
+        var body = doc.body
+        var ifrm = iframes[id] // or win.frameElement
+
+        if(body) {
+            body.style.overflowX = "scroll" // scrollbar-jitter fix
+            body.style.overflowY = "hidden"
+        }
+        if(html) {
+            html.style.overflowX = "scroll" // scrollbar-jitter fix
+            html.style.overflowY = "hidden"
+            var style = win.getComputedStyle(html)
+            ifrm.width = parseInt(style.getPropertyValue("width")) // round value
+            ifrm.height = parseInt(style.getPropertyValue("height"))
+        }
+    }
+
+    requestAnimationFrame(fit)
+}
+
+addEventListener("load", requestAnimationFrame.bind(this, fit))
+									</script>
+									<iframe height="100%" class="gh-fit gh-fullwidth" src="https://docs.google.com/document/d/e/2PACX-1vTMAaMJF-ZyTKLXkGY-Drj4dHPtlpsEQr1HZWtoEg9ew0TuGaDJPudGkZq-OSqGGc7rPdQRuExPJt7F/pub?embedded=true"></iframe>
 
 								</section>
 
