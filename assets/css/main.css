@@ -1841,7 +1841,7 @@ button,
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-  min-height: 100vh; }
+   }
 
 /* Main */
 #main {
