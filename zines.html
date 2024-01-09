@@ -1,21 +1,87 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Library - GAC</title>
+		<title>Staff - GAC</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-				<link rel="stylesheet" href="assets/css/main.css" />
-        		<script src="https://kit.fontawesome.com/3626f04910.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://kit.fontawesome.com/3626f04910.js" crossorigin="anonymous"></script>
 		<link rel="shortcut icon" type="image/png" 
 		href="{{ "favicon.ico"  | absolute_url }}">
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
+        <style>
+            /* Three columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-left:40px;
+    margin-right:40px;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:rgb(242, 233, 218)
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  background-color: #edb56b;
+  text-align: center;
+  padding:0px;
+  text-decoration-color: white;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+
+}
+
+.button:hover {
+  background-color: #8f94b3;
+}
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+padding:4px;
+}
+
+        </style>
 	</head>
-	<style>
-		html{
-			min-height:0;
-		}
-	</style>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -33,29 +99,28 @@
                                             <li><a href="https://www.instagram.com/gliese.artcollective/" class="fa-brands fa-instagram fa-2xl"></a></li>
                                         </ul>
                                     </header>
-
-							<!-- Content -->
-								<section>
+<section>
 									<header class="main">
-										<h1>Gliese Zines</h1>
+										<h1>Zines</h1>
 									</header>
-									<span class="image main"><img src="https://i.ibb.co/xJS4tPc/dezoomify-result.jpg" alt="" /></span>
+
+									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+									<a id="Gliese_intro_zine"><section>
+									<div class="content" style="background-color:#c38c44; padding:20px;border-radius: 25px; border-color: #373b52; border-style: solid; border-width:2px;
+									">
 									<header class="major">   
 										<style>
 											.dog{
 											transition: 0.2s;
 											}
-											
 											.cat{
 											transition: 0.2s;
 
 											}
-											
-										</style>
-		
 
-										<div><h2 class="dog">Gliese Art Collective: intro zine </h2>
-										<a href="https://gliese.arceus.day/zines.html#Gliese_intro_zine"><i class="fa-solid fa-copy"></i></a></div>
+										</style>
+<h2 class="dog">Gliese Art Collective: intro zine </h2>
+										<a href="https://gliese.arceus.day/zines.html#Gliese_intro_zine"><i class="fa-solid fa-copy"></i></a>
 									</header>
 										<div class="col-6 col-12-small">
 											<p class="cat">This zine talks about what we do, who we are, and what we're here for!! Click <strong><a href="https://www.canva.com/design/DAF0GpHXI88/GzejCYOVuI4k3XYo4Kos0A/view?utm_content=DAF0GpHXI88&utm_campaign=designshare&utm_medium=link&utm_source=editor">HERE</a></strong> for the online booklet!</p>
@@ -64,9 +129,9 @@
 											<p align="center"><img width=70% height=70% src="https://i.ibb.co/qY3xPmG/zine.png"></p>										</div>
 
 										</div>
-<br></a>
-								</section>
-
+<br>
+								</section> </a>
+							<!-- Content -->
 						</div>
 					</div>
 
@@ -91,7 +156,7 @@
                                     <li><a href="library.html">Library</a></li>
                                     <li><a href="staff.html">Staff</a></li>
                                             <li><a href="mission.html">Mission</a></li>
-												<li><a href="zines.html">Zines</a></li>
+                                            <li><a href="zines.html">Zines</a></li>
                                         </ul>
                                     
                                         <ul>
@@ -124,9 +189,11 @@
                             </section>
 
                         <!-- Footer -->
-                        <footer id="footer" style="color: #373b52">
+                            <footer id="footer">
+                              <footer id="footer" style="color: #373b52">
 <br><br><br>                            </footer>
 
+                            </footer>
 
                     </div>
                 </div>
@@ -140,10 +207,28 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-		<script src="iframeResizer.contentWindow.js"></script>
-<script>
-  top.postMessage('gasFrame', '*');
-</script>
-
 	</body>
+  <footer class="footer-distributed">
+
+    <div class="footer-right">
+
+      <a href="https://www.facebook.com/glieseartcollective/"><i class="fa fa-facebook"></i></a>
+      <a href="https://github.com/glieseartcollective"><i class="fa fa-github"></i></a>
+      <a href="https://instagram.com/gliese.artcollective"><i class="fa fa-instagram"></i></a>
+
+    </div>
+
+    <div class="footer-left">
+
+      <p class="footer-links">
+        <a class="link-1" href="https://gliese.arceus.day">Home</a>
+      </p>
+
+      <p>Gliese Art Collective &copy; 2023</p>
+      <br>
+      <p><a style="color:rgb(109, 109, 109)" href="mailto:gliese.artcollective@gmail.com">gliese.artcollective@gmail.com</a></p>
+    </div>
+
+  </footer>
+
 </html>
