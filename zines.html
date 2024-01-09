@@ -118,21 +118,20 @@ padding:4px;
 
 											}
 
+											#myInput{position:absolute;left:-1000px}
+
 										</style>
-										<script>const CopyToClipboard = toCopy => {
-    const el = document.createElement(`textarea`)
-    el.value = toCopy
-    el.setAttribute(`readonly`, ``)
-    el.style.position = `absolute`
-    el.style.left = `-9999px`
-    document.body.appendChild(el)
-    el.select()
-    document.execCommand(`copy`)
-    document.body.removeChild(el)
-  }</script>
-<h2 class="dog">Gliese Art Collective: intro zine <a href="https://gliese.arceus.day/zines.html#Gliese_intro_zine"><button onClick={() => {
-       CopyToClipboard(window.location.href)
-     }}><i class="fa-solid fa-copy" style="display:inline-block;"></i></button></a>
+										<script>
+										function myFunction() {
+  											var copyText = document.getElementById("myInput");
+ 											 copyText.select();
+ 											 document.execCommand("copy");
+ 											 alert("Copied link!");
+											}
+											
+										</script>
+										<input type="text" value="https://gliese.arceus.day/zines.html#Gliese_intro_zine" id="myInput">
+<h2 class="dog">Gliese Art Collective: intro zine <a href="https://gliese.arceus.day/zines.html#Gliese_intro_zine"><i class="fa-solid fa-copy" onclick="myFunction()" style="display:inline-block;"></i></a>
  </h2>
 									</header>
 										<div class="col-6 col-12-small">
