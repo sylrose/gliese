@@ -119,7 +119,20 @@ padding:4px;
 											}
 
 										</style>
-<h2 class="dog">Gliese Art Collective: intro zine <a href="https://gliese.arceus.day/zines.html#Gliese_intro_zine"><i class="fa-solid fa-copy" style="display:inline-block;"></i></a>
+										<script>const CopyToClipboard = toCopy => {
+    const el = document.createElement(`textarea`)
+    el.value = toCopy
+    el.setAttribute(`readonly`, ``)
+    el.style.position = `absolute`
+    el.style.left = `-9999px`
+    document.body.appendChild(el)
+    el.select()
+    document.execCommand(`copy`)
+    document.body.removeChild(el)
+  }</script>
+<h2 class="dog">Gliese Art Collective: intro zine <a href="https://gliese.arceus.day/zines.html#Gliese_intro_zine"><button onClick={() => {
+       CopyToClipboard(window.location.href)
+     }}><i class="fa-solid fa-copy" style="display:inline-block;"></i></button></a>
  </h2>
 									</header>
 										<div class="col-6 col-12-small">
