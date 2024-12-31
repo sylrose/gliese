@@ -134,8 +134,23 @@ padding:4px;
 											
 										</script>
 										<input type="text" value="https://gliese.arceus.day/zines.html#Gliese_intro_zine" id="myInput">
-<h2 class="dog">Gliese Art Collective: intro zine <a href="https://gliese.arceus.day/zines.html#Gliese_intro_zine"><i class="fa-solid fa-copy" onclick="myFunction()" style="display:inline-block;"></i></a>
-		
+										<script>function CopyMe(TextToCopy) {
+											var TempText = document.createElement("input");
+											TempText.value = TextToCopy;
+											document.body.appendChild(TempText);
+											TempText.select();
+											
+											document.execCommand("copy");
+											document.body.removeChild(TempText);
+											
+											alert("Copied link!");
+										  }
+										  </script>
+									
+<h2 class="dog">Gliese Art Collective: intro zine <a href="https://gliese.arceus.day/zines.html#Gliese_intro_zine"><i class="fa-solid fa-copy" onclick="CopyMe('https://gliese.arceus.day/zines.html#Gliese_intro_zine')" style="display:inline-block;"></i></a>
+	
+
+	
 	<a href="https://glieseart.tumblr.com/post/733927555955032064/gliese-intro-zine">
 		<i class="fa fa-tumblr" style="display:inline-block;"></i>
 	</a>
