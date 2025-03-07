@@ -1296,6 +1296,10 @@ ul.actions {
   display: -ms-flex;
   display: flex;
   cursor: default;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:99%;
   list-style: none;
   margin-left: -1em;
   padding-left: 0; }
